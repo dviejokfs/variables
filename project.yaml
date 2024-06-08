@@ -1,0 +1,7 @@
+title: Practice Bun
+
+test:
+    - bun test
+
+services:
+    - type: postgresql

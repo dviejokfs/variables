@@ -1,0 +1,14 @@
+{
+	"name": "Bun project",
+	// The order of the files is important since later files override previous ones
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "project",
+	"mounts": [
+		"source=${localWorkspaceFolder},target=/home/student/project_01,type=bind,consistency=cached"
+	],
+	"runServices": [],
+	"workspaceFolder": "/home/student/project_01",
+	"shutdownAction": "stopCompose"
+}
